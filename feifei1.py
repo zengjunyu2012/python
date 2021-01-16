@@ -5,12 +5,12 @@ for i in range(100):
     x = eval(input("number:"))
     cha=my_number-x
     if x<my_number:
-        print("太小")
+        print("小")
         if cha<+20:
-            print("小")
+            print("太小")
     elif x>my_number:
-        print("太大")
+        print("大")
         if cha>-20:
-            print("大")
+            print("太大")
     else:
         print("对")
