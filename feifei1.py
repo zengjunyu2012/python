@@ -3,7 +3,7 @@ my_number = random.randint(1,100)
 print(my_number)
 for i in range(100):
     x = eval(input("number:"))
-    cha=my_number-x
+    cha=x-my_number
     if x<my_number:
         print("小")
         if cha<+20:
