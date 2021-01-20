@@ -6,7 +6,7 @@ for i in range(100):
     cha=you_input-my_number
 if you_input==my_number:
     print("对")
-else：
+else:
     if you_input<my_number:
         print("小")
     else:
