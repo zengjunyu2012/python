@@ -2,15 +2,12 @@ import random
 my_number = random.randint(1,100)
 print(my_number)
 for i in range(100):
-    x = eval(input("number:"))
-    cha=x-my_number
-    if x<my_number:
+    you_input = eval(input("number:"))
+    cha=you_input-my_number
+if you_input==my_number:
+    print("对")
+else：
+    if you_input<my_number:
         print("小")
-        if cha<+20:
-            print("太小")
-    elif x>my_number:
-        print("大")
-        if cha>-20:
-            print("太大")
     else:
-        print("对")
+        print("大")
