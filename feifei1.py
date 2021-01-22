@@ -10,7 +10,6 @@ else:
         print("太小")
     else:
         print("小")
-if:
     if you_input-20>my_number:
             print("太大")
         else:
