@@ -11,6 +11,6 @@ else:
     else:
         print("小")
     if you_input-20>my_number:
-            print("太大")
-        else:
-            print("大")
+        print("太大")
+    else:
+        print("大")
