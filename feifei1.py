@@ -1,6 +1,6 @@
 import random
 my_number = random.randint(1,100)
-for i in range(15):
+for i in range(10):
     you_input = eval(input("number:"))
     if you_input==my_number:
         print("对")
