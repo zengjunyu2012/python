@@ -1,6 +1,5 @@
 import random
 my_number = random.randint(1,100)
-print(my_number)
 for i in range(100):
     you_input = eval(input("number:"))
     if you_input==my_number:
