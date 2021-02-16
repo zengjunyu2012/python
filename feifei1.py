@@ -1,9 +1,15 @@
 import random
 my_number = random.randint(1,100)
-for i in range(10):
+for i in range(1,11):
     you_input = eval(input("number:"))
     if you_input==my_number:
         print("对")
+        print("你胜利了!")
+        print("你猜了",i,"次")
+        break
+        if i>10:
+            print("你失败了!")
+            break
     else:
         if you_input>my_number:
             if you_input-20>my_number:
