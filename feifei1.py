@@ -21,3 +21,8 @@ for i in range(1,11):
                 print("太小")
             else:
                 print("小")
+    if i"次">10:
+        print("你失败了!")
+    else:
+        print("你胜利了!")
+        print("你猜了",i,"次")
