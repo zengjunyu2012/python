@@ -1,5 +1,6 @@
 import random
 my_number = random.randint(1,100)
+pdc=0
 for i in range(1,11):
     you_input = eval(input("number:"))
     if you_input==my_number:
@@ -18,5 +19,7 @@ for i in range(1,11):
                 print("太小")
             else:
                 print("小")
-print(i)
-print("你失败了!")
+i=10
+pdc=i-1
+if pdc=9:
+    print("你失败了")
