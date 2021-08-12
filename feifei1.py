@@ -4,9 +4,8 @@ pdc=0
 for i in range(1,11):
     you_input = eval(input("number:"))
     if you_input==my_number:
+        pdc=1
         print("对")
-        print("你胜利了!")
-        print("你猜了",i,"次")
         break
     else:
         if you_input>my_number:
@@ -19,7 +18,8 @@ for i in range(1,11):
                 print("太小")
             else:
                 print("小")
-i=10
-pdc=i-1
-if pdc=9:
+if pdc==1:
+    print("你胜利了!")
+    print("你猜了",i,"次")
+else:
     print("你失败了")
